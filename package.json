@@ -1,0 +1,43 @@
+{
+  "name": "app1",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.26",
+    "@sveltejs/kit": "next",
+    "@windicss/plugin-animations": "^1.0.9",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "svelte-windicss-preprocess": "^4.2.5",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.29.4"
+  },
+  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonjavanteese/sv-kit-timer1.git"
+  },
+  "keywords": [
+    "svelte",
+    "sveltekit"
+  ],
+  "author": "sonja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonjavanteese/sv-kit-timer1/issues"
+  },
+  "homepage": "https://github.com/sonjavanteese/sv-kit-timer1#readme"
+}
